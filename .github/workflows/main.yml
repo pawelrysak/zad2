@@ -6,7 +6,7 @@ on:
 
 jobs:
   build-push-images:
-    name: Budowa i publikacja obrazw na repozytoriumv2
+    name: Budowa i publikacja obrazw na repozytorium
     runs-on: ubuntu-latest
 
     steps:
@@ -33,5 +33,5 @@ jobs:
           file: ./dockerfile.v1
           push: true
           tags: |
-            pawelrysak/zad2:v1
+            comett007/zad2:v1
           
