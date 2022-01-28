@@ -33,5 +33,5 @@ jobs:
           file: ./dockerfile.v1
           push: true
           tags: |
-            comett007/zad2:v1
+            pawelrysak/zad2:v1
           
